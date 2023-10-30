@@ -1567,8 +1567,6 @@ object MainForm: TMainForm
     Height = 471
     Align = alClient
     TabOrder = 0
-    ExplicitWidth = 813
-    ExplicitHeight = 503
     object cbbConvertData: TcxComboBox
       Left = 117
       Top = 39
@@ -1580,7 +1578,7 @@ object MainForm: TMainForm
       Style.TransparentBorder = False
       Style.ButtonStyle = bts3D
       Style.PopupBorderStyle = epbsFrame3D
-      TabOrder = 3
+      TabOrder = 4
       Width = 401
     end
     object lstPrefixFrom: TcxListBox
@@ -1593,7 +1591,7 @@ object MainForm: TMainForm
       Style.BorderStyle = cbs3D
       Style.HotTrack = False
       Style.TransparentBorder = False
-      TabOrder = 8
+      TabOrder = 9
       OnClick = ChangeData
     end
     object cbbFormat: TComboBox
@@ -1601,7 +1599,8 @@ object MainForm: TMainForm
       Top = 30
       Width = 216
       Height = 21
-      TabOrder = 2
+      Enabled = False
+      TabOrder = 3
       Text = #1054#1073#1099#1095#1085#1099#1081
       OnChange = ChangeData
       Items.Strings = (
@@ -1615,6 +1614,7 @@ object MainForm: TMainForm
       Left = 781
       Top = 57
       AutoSize = False
+      Enabled = False
       Properties.MaxValue = 15.000000000000000000
       Properties.MinValue = 1.000000000000000000
       Style.BorderColor = clWindowFrame
@@ -1622,7 +1622,7 @@ object MainForm: TMainForm
       Style.HotTrack = False
       Style.TransparentBorder = False
       Style.ButtonStyle = bts3D
-      TabOrder = 5
+      TabOrder = 6
       Value = 4
       OnClick = ChangeData
       Height = 21
@@ -1632,6 +1632,7 @@ object MainForm: TMainForm
       Left = 615
       Top = 57
       AutoSize = False
+      Enabled = False
       Properties.AssignedValues.MinValue = True
       Properties.MaxValue = 15.000000000000000000
       Style.BorderColor = clWindowFrame
@@ -1639,7 +1640,7 @@ object MainForm: TMainForm
       Style.HotTrack = False
       Style.TransparentBorder = False
       Style.ButtonStyle = bts3D
-      TabOrder = 4
+      TabOrder = 5
       Value = 3
       OnClick = ChangeData
       Height = 21
@@ -1655,7 +1656,7 @@ object MainForm: TMainForm
       Style.BorderStyle = ebs3D
       Style.HotTrack = False
       Style.TransparentBorder = False
-      TabOrder = 6
+      TabOrder = 7
       OnKeyPress = txtValueFromKeyPress
       Width = 277
     end
@@ -1669,7 +1670,7 @@ object MainForm: TMainForm
       Style.BorderStyle = cbs3D
       Style.HotTrack = False
       Style.TransparentBorder = False
-      TabOrder = 9
+      TabOrder = 10
       OnClick = ChangeData
     end
     object lstPrefixTo: TcxListBox
@@ -1682,7 +1683,7 @@ object MainForm: TMainForm
       Style.BorderStyle = cbs3D
       Style.HotTrack = False
       Style.TransparentBorder = False
-      TabOrder = 10
+      TabOrder = 11
       OnClick = ChangeData
     end
     object lstSITo: TcxListBox
@@ -1695,7 +1696,7 @@ object MainForm: TMainForm
       Style.BorderStyle = cbs3D
       Style.HotTrack = False
       Style.TransparentBorder = False
-      TabOrder = 11
+      TabOrder = 12
       OnClick = ChangeData
     end
     object txtValueTo: TcxTextEdit
@@ -1708,7 +1709,7 @@ object MainForm: TMainForm
       Style.BorderStyle = ebs3D
       Style.HotTrack = False
       Style.TransparentBorder = False
-      TabOrder = 7
+      TabOrder = 8
       Height = 21
       Width = 321
     end
@@ -1761,6 +1762,7 @@ object MainForm: TMainForm
       ControlOptions.OriginalHeight = 21
       ControlOptions.OriginalWidth = 145
       ControlOptions.ShowBorder = False
+      Enabled = False
       Index = 0
     end
     object lciDigits: TdxLayoutItem
@@ -1918,9 +1920,6 @@ object MainForm: TMainForm
     Font.Height = -11
     Font.Name = 'Tahoma'
     Font.Style = []
-    ExplicitLeft = 445
-    ExplicitTop = 141
-    ExplicitWidth = 0
   end
   object dxlytlkndflst1: TdxLayoutLookAndFeelList
     Left = 24
